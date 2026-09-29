@@ -8,3 +8,7 @@ This repository contains some of the work of the GLEON Seminal Papers group.
 - Run the code
 - Enjoy
 
+### What the code does 
+The code pulls data for all the papers through its DOI. The data is pulled from CrossRef through the CrossRef R-package. 
+
+Any enquiries don't hesitate contacting me.
