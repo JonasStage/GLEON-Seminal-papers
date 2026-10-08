@@ -1,6 +1,7 @@
 list.of.packages <- c("tidyverse", "lubridate","patchwork","rjson","rcrossref","janitor")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
+library("tidyverse");library("lubridate");library("patchwork");library("rjson");library("rcrossref");library("janitor")
 
 
 
